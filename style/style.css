@@ -17,11 +17,21 @@ a{
   background: url(../img/hero_image.png) no-repeat center center;
   height: 100vh;
   background-size: cover;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .title{
-  top: 0;
-  position: absolute;
   color: #fff;
   clear: both;
   width: 100%;
@@ -31,14 +41,16 @@ a{
   font-family: Lato Heavy;
   font-size: 72px;
   margin-bottom: 10px;
+  margin-top: 0px;
 }
 
 .title h2{
   font-family: Lato Light;
   font-size: 36px;
   margin-top: 0;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
   font-weight: normal;
+  padding: 10px;
 }
 
 .cta{
@@ -79,102 +91,3 @@ a{
   color: #fff;
   font-weight: bold;
 }
-
-.appmixture{
-  cursor: pointer;
-    color: #fff;
-  position: absolute;
-  top: 0;
-  right: 0;
-  padding: 0.75em;
-  z-index: 1;
-  vertical-align: middle;
-  font-size: 1.25em;
-  display: inline;
-  margin-top: 20px;
-}
-
-.appmixture:hover{
-  background-color: #fafafa;
-  color: #52596b;
-}
-
-.appmixture p{
-  display: inline;
-  vertical-align: text-bottom;
-  font-family: Nexa Light;
-}
-
-.appmixture img{
-  display: inline;
-  max-height: 40px;
-}
-
-.inspired{
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  margin-right: 10px;
-  margin-bottom: 10px;
-}
-
-.inspired a{
-  color: #fafafa;
-  font-family: Lato Light;
-}
-
-/*retina*/
-@media screen and (min-width: 2000px) {
-  .hero{
-    background: url(../img/hero_image_retina.png) no-repeat center center;
-  }
-}
-
-@media screen and (max-width: 1440px) {
-  .title{
-    top:35%;
-  }
-  .title h2{
-    margin-bottom: 60px;
-  }
-}
-
-@media screen and (max-width: 960px) {
-  .title h1{
-    font-size: 60px;
-  }
-  .title h2{
-    font-size: 30px;
-  }
-  .cta{
-    font-size: 24px;
-  }
-  .title h3{
-    font-size: 24px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .title{
-    top:35%;
-  }
-  .title h1{
-    font-size: 48px;
-  }
-  .title h2{
-    font-size: 24px;
-  }
-  .cta{
-    font-size: 18px;
-    padding: 14px 60px 14px 60px;
-  }
-  .title h3{
-    font-size: 18px;
-  }
-  .appmixture{
-    margin-top: 0;
-  }
-  .appmixture img{
-    max-height: 30px;
-  }
-}
-
