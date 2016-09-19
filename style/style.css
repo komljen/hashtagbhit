@@ -14,7 +14,7 @@ a{
 }
 
 .hero{
-  background: url(../img/hero_image.png) no-repeat center center;
+  background: url(../img/bhit_landing_page.png) no-repeat center center;
   height: 100vh;
   background-size: cover;
   display: -webkit-box;
@@ -39,7 +39,7 @@ a{
 
 .title h1{
   font-family: Lato Heavy;
-  font-size: 72px;
+  font-size: 94px;
   margin-bottom: 10px;
   margin-top: 0px;
 }
@@ -54,23 +54,19 @@ a{
 }
 
 .cta{
-  background-color: #27d7b1;
+  background-color: #FFFFFF;
   padding: 18px 100px 18px 100px;
-  color: #fff;
+  color: #000000;
   font-family: Lato Heavy;
   font-size: 30px;
   border:solid;
   border-radius: 10px;
-  border-color: #27d7b1;
+  border-color: #FFFFFF;
   margin-bottom: 5px;
-  box-shadow: 0 5px 0 #126654;
 }
 
 .cta:hover {
-  background-color: #fafafa;
-  border-color: #fafafa;
   cursor: pointer;
-  color: #27d7b1;
 }
 
 .title p{
